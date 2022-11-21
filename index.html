@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="dokalkulatora.css">
+	<script type="text/javascript" src="dokalkulatora.js"></script>
+	<title>kalkulator ambitny :3</title>
+
+</head>
+<body>
+<div id="calosc" onmouseover="dodajRamke()">
+<div id="display"></div>
+
+<div id="wszystkie">
+<div id="cyfry">
+<div id="rzad1">
+<input type="button" value="1" class="guziki" onclick="dodajNaEkran(1)">
+<input type="button" value="2" class="guziki" onclick="dodajNaEkran(2)">
+<input type="button" value="3" class="guziki" onclick="dodajNaEkran(3)">
+<input type="button" value="4" class="guziki" onclick="dodajNaEkran(4)">
+<input type="button" value="5" class="guziki" onclick="dodajNaEkran(5)">
+</div>
+<div id="rzad2">
+<input type="button" value="6" class="guziki" onclick="dodajNaEkran(6)">
+<input type="button" value="7" class="guziki" onclick="dodajNaEkran(7)">
+<input type="button" value="8" class="guziki" onclick="dodajNaEkran(8)">
+<input type="button" value="9" class="guziki" onclick="dodajNaEkran(9)">
+<input type="button" value="0" class="guziki" onclick="dodajNaEkran(0)">
+<input type="button" value="." class="guziki" onclick="dodajNaEkran('.')">
+</div>
+</div>
+<div id="guzikidzialanie">
+<input type="button" value="+" class="guzikidzialanie" onclick="dodajNaEkran('+')">
+<input type="button" value="-" class="guzikidzialanie" onclick="dodajNaEkran('-')">
+<input type="button" value="*" class="guzikidzialanie" onclick="dodajNaEkran('*')">
+<input type="button" value="/" class="guzikidzialanie" onclick="dodajNaEkran('/')">
+<input type="button" value="="class="guzikidzialanie"  onclick="oblicz()">
+</div>
+<div id="ichniejsze">
+<input type="button" value="CLS"class="ichniejsze"  onclick="czyszczenie()">
+<input type="button" value="Inne" class="ichniejsze	" onclick="inneDzialanie()">
+</div>
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
